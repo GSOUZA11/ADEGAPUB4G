@@ -1,0 +1,253 @@
+
+h1 {
+
+color: #ED1E24;
+
+}
+
+
+body, p, h1, h2, input, textarea {
+
+margin: 75;
+font-size: Roboto;
+}
+
+h2 {
+font-size: 30px;
+}
+
+#navbar {
+background-color:#ED1E24;
+color: #fff;
+padding: 0 15px;
+height: 60px;
+
+}
+
+#navbar h2, #navbar ul, #navbar-list li #navbar nav {
+    display: inline-block;
+}
+
+#navbar h2 {
+    margin: 0;
+    line-height: 60px;
+    margin-left: 55px;
+}
+
+#navbar img {
+
+    height: 175px;
+    position: absolute;
+    top: 10px;
+
+}
+
+#navbar nav{
+    float: right;
+}
+
+#navbar ul {
+    
+    margin-top: 25px;
+}
+
+#navbar li {
+    margin: 0 25px;
+}
+
+#navbar-list li a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+#navbar-list li a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+/*------------banner----------- */
+
+#main-banner {
+    height: 70vh;
+    background-image: url('./image/bannertp2\ \(1\).png');
+    background-size: cover;
+    padding-top: 20vh;
+}
+
+#banner-info {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+
+}
+
+#banner-info img {
+    height: 150px;
+    border-radius: 50%;
+    background-color: #ED1E24;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#banner-info p {
+    background-color: #ED1E24;
+    font-weight: bold;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 25px;
+}
+
+#about-section {
+    text-align: center;
+    background-color: #ED1E24;
+    color: #fff;
+    padding-top: 50px;
+    height: 350px;
+}
+
+#about-section h2 {
+    margin-bottom: 20px;
+}
+
+#about-section p {
+max-width: 60px;
+margin-right: auto;
+margin-left: auto;
+line-height: 30px;
+}
+
+#shills-section{
+    margin-top: -100px;
+    background-attachment: #fff;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #DDD;
+    border-radius: 10px;
+}
+
+#shills-section.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#shills-container {
+    flex: 1 1 1;
+    text-align: center;
+    padding: 60px 25px;
+}
+
+#central {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+#shills-container h3 {
+    color: #ED1E24;
+}
+
+#shills-container img {
+    height: 60px;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-top: 1px solid #ED1E24;
+    border-left: 1px solid #ED1E24;
+    border-bottom: 4px solid #ED1E24;
+    border-right: 4px solid #ED1E24;
+}
+
+#shills-container.subtitle {
+    font-weight: bold;
+    color: #ED1E24;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+
+#job-section {
+    text-align: center;
+    padding-top: 25px;
+}
+
+#job-section h2 {
+    color: #ED1E24;
+    margin-bottom: 30px;
+}
+
+#job-section p {
+    margin-top: 50px;
+}
+
+#job-section a {
+    font-weight: bold;
+    color: #ED1E24;
+}
+.job-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.job-box {
+    flex: 1 1 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 300px;
+    background-size: cover;
+    border-right: 2px solid #ED1E24;
+    border-bottom: 2px solid 
+}
+   
+
+.proj3 {
+    background-image: url
+}
+
+footer {
+    padding: 50px o;
+    background: #ED1E24;
+     color:#DDD;
+     text-align: center;
+}
+
+footer img {
+    height: 50px;
+    margin: 30px 0;
+}
+
+footer p {
+    margin-top: 50px;
+}
+
+footer form {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto ;
+}
+
+footer input, footer textarea{
+    border: none;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 350px;
+    display: block;
+}
+
+footer .detail {
+    font-weight: bold;
+}
+
+
+
+
+
